@@ -1,7 +1,7 @@
 body{
   background-color: skyblue;
 }
-
+/* this is to make the background of the webpage skyblue*/
 img {
   width:500px;
   height: 300px;
@@ -9,13 +9,16 @@ img {
   margin-left: 100px;
   opacity:0.5;
 }
-
+/* For the image we gave each image the a given width and height and margin-left property.
+We also gave the image some opacity such that it is not 100% visible. And we added the display inline to
+insure that the pictures stay on the same line.*/
 img:hover {
   opacity: 1;
 }
-
+/* once user hovers over the image, it will be 100% visible*/
 h1, h2, h3 {
   color: white;
   background-color: black;
   text-align: center;
 }
+/* This is to align the text of the topics and have them centered. */
