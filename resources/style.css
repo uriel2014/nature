@@ -1,0 +1,21 @@
+body{
+  background-color: skyblue;
+}
+
+img {
+  width:500px;
+  height: 300px;
+  display: inline;
+  margin-left: 100px;
+  opacity:0.5;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+h1, h2, h3 {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
